@@ -1,0 +1,217 @@
+* {
+    box-sizing: border-box
+}
+@font-face {
+    font-family: Vogue;
+    src: url(../FONTES/Vogue.ttf);
+}
+body {
+    font-family: monospace; 
+    margin: 0;
+    background: linear-gradient(130deg, #4E2531, #F13800);
+}
+.login-container {
+    margin: 12% 0% 10% 40%;
+    background-color: #0608078f;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: rgb(78, 37, 49) 5px 5px, rgba(78, 37, 49, 0.5) 10px 10px, rgba(78, 37, 49, 0.2) 15px 15px, rgba(78, 37, 49, 0.1) 20px 20px, rgba(78, 37, 49, 0.05) 25px 25px;
+    width: 330px;
+    color: white;
+}
+h2 {
+    font-family: 'Source Sans 3';
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 900;
+}
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+.input-field:focus {
+    border-color: #C3330E;
+    outline: none;
+}
+.login-btn {
+    margin-left: 5%;
+    margin-top: 20px;
+    width: 90%;
+    padding: 15px;
+    background-color: #F13800;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: Vogue;
+}
+.login-btn:hover {
+    transition: .3s;
+    background-color: #4E2531;
+}
+
+header{
+    font-family: "Source Sans 3";
+    font-weight: 900;
+    width: 100%;
+    height: 50px;
+    position: sticky;
+    display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+#TituloInicio{
+	display: inline-block;
+	flex-direction: column;
+	color: white;
+    justify-content: left;
+    line-height: 50%;
+}
+#BtnInicio{
+    margin-right: 15px;
+}
+a{
+    color: white;
+}
+
+li{
+    display: inline-block;
+}
+
+#NomeEmpresa{
+    display: inline-block;
+    color: white;
+    font-family: Vogue;
+    height: 20px;
+    margin-top: 10%;
+    margin-bottom: 0px;
+}
+#LogoEmpresa{
+    padding-bottom: 9px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 0px;
+    text-decoration: none;
+}
+
+.bloco{
+    position: absolute;
+    right: 75vh;
+    bottom: 44px;
+    width: 240px;
+    height: 10px;
+    background-color: #F13800;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+}
+
+.bloco2{
+    position: absolute;
+    right: 50vh;
+    bottom: 44px;
+    width: 240px;
+    height: 10px;
+    background-color: #C3330E;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+}
+
+.bloco3{
+    position: absolute;
+    right: 25vh;
+    bottom: 44px;
+    width: 240px;
+    height: 10px;
+    background-color: #802B22;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+}
+
+.bloco4{
+    position: absolute;
+    right: 0vh;
+    bottom: 44px;
+    width: 240px;
+    height: 10px;
+    background-color: #4E2531;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+}
+
+.positivo{
+    -webkit-transform: skew(40deg);
+    -ms-transform: skew(40deg);
+    transform: skew(40deg);
+}
+.SubTituloInicio{
+    font-size: 17px;
+    margin-left: 6px;
+}
+.SubTituloInicio:hover{
+    color: #F13800;
+    transition: 0.5s;
+}
+
+/* --- //////////////////////////////////////////////////////// FOOTER //////////////////////////////////////////////////////// --- */
+
+footer{
+    padding: 20px;
+    margin-bottom: -20px;
+    color: white;
+    background-color: black;
+}
+#RodapeCima{
+    margin-left: 80%;
+    margin-top: -40px;
+    width: 20%;
+}
+#TituloRodape{
+    font-family: "Source Sans 3";
+    font-size: 27px;
+    font-weight: 900;
+    width: 120px;
+}
+.RedeSocial{
+    display: flex;
+    width: 180px;
+    text-decoration: none;
+    height: 30px;
+    margin-bottom: 10px;
+}
+.RedeSocial p{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.SubTituloRodape{
+    font-family: Vogue;
+    color: white;
+    font-size: 20px;
+}
+#SegmentoRodape{
+    display: block;
+    right: 20px;
+    padding-bottom: 40px;
+    width: 120px;
+}
+#RodapeBaixo{
+    display: flex;
+}
+#RodapeLogo{
+    width: 190px; 
+    height: 40px; 
+    margin: 20px 20vh 20px 0px;
+}
+#Vazio{
+    width: 190px;
+    height: 30px;
+}
